@@ -1,0 +1,37 @@
+{
+   "PAM_Att":[
+      {
+         "column_name":[
+            "bid_id"
+         ],
+         "is_active":true,
+         "total_records":1000,
+         "reducer_limit":2,
+         "table_count":3,
+         "table_name":[
+            "bidid_1",
+            "bidid_2",
+            "bidid_3"
+         ],
+         "result_table":"bidid_cnt"
+      },
+      {
+         "column_name":[
+            "country",
+            "city"
+         ],
+         "is_active":false,
+         "total_records":5000,
+         "reducer_limit":3,
+         "table_count":5,
+         "table_name":[
+            "country_1",
+            "country_2",
+            "country_3",
+            "country_4",
+            "country_5"
+         ],
+         "result_table":"country_cnt"
+      }
+   ]
+}

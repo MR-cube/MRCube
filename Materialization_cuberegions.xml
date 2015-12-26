@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<materialization>
+	<materialize id="101">
+		<cuberegion>region,city</cuberegion>
+		<regionstoragename>reg_cit_der</regionstoragename>
+		<regioncolumnname>region,city,derivedCount</regioncolumnname>
+		<ismaterialize>1</ismaterialize>
+	</materialize>
+	<materialize id="102">
+		<cuberegion>region,city,domain</cuberegion>
+		<regionstoragename>reg_cit_dom_der</regionstoragename>
+		<regioncolumnname>region,city,domain,regioncitydomaincount</regioncolumnname>
+		<ismaterialize>1</ismaterialize>
+	</materialize>	
+</materialization>

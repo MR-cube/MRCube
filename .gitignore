@@ -1,0 +1,23 @@
+target/
+.DS_Store
+._.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+*.jar
+
+#Thumbnails
+._*
+
+.Trashes
+
+# Eclipse stuff
+.classpath
+.project
+.settings
+
+# IntelliJ
+.idea
+
+# Vim
+*.swp

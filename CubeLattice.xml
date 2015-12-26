@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<cubelattice>
+	<cuberegion id="L0-00-I-00-00-0001">
+		<regionname>advertiser_id</regionname>
+		<regiontablename>adv_der_01</regiontablename>
+		<vpfactor>7</vpfactor>
+		<rfstatus>RUF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L1-00-I-00-00-0002">
+		<regionname>log_type,advertiser_id</regionname>
+		<regiontablename>log_adv_der_01</regiontablename>
+		<vpfactor>7</vpfactor>
+		<rfstatus>RUF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L1-01-I-00-00-0003">
+		<regionname>country,advertiser_id</regionname>
+		<regiontablename>cou_adv_der_01</regiontablename>
+		<vpfactor>3</vpfactor>
+		<rfstatus>RUF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L2-00-I-00-00-0004">
+		<regionname>ad_exchange,advertiser_id</regionname>
+		<regiontablename>ade_adv_der_01</regiontablename>
+		<vpfactor>3</vpfactor>
+		<rfstatus>RUF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L2-01-S-00-01-0005">
+		<regionname>country,log_type</regionname>
+		<regiontablename>con_log_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L2-02-I-00-00-0006">
+		<regionname>region</regionname>
+		<regiontablename>reg_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L3-00-I-00-00-0007">
+		<regionname>ad_exchange</regionname>
+		<regiontablename>ade_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L3-01-S-00-01-0008">
+		<regionname>country,ad_exchange</regionname>
+		<regiontablename>cou_ade_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L3-02-S-01-02-0009">
+		<regionname>region,log_type</regionname>
+		<regiontablename>reg_log_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L3-03-I-00-00-0010">
+		<regionname>city</regionname>
+		<regiontablename>cit_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L4-00-S-00-01-0011">
+		<regionname>country,bidding_price</regionname>
+		<regiontablename>cou_bid_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L4-01-S-01-02-0012">
+		<regionname>region,ad_exchange</regionname>
+		<regiontablename>reg_ade_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L4-02-S-02-03-0013">
+		<regionname>city,log_type</regionname>
+		<regiontablename>cit_log_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L5-00-S-00-01-0014">
+		<regionname>region,bidding_price</regionname>
+		<regiontablename>reg_bid_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L5-01-S-01-02-0015">
+		<regionname>ad_exchange,log_type</regionname>
+		<regiontablename>ade_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+	<cuberegion id="L6-00-S-00-01-0016">
+		<regionname>ad_exchange,bidding_price</regionname>
+		<regiontablename>ade_bid_der</regiontablename>
+		<vpfactor>1</vpfactor>
+		<rfstatus>RF</rfstatus>
+		<isactive>0</isactive>
+	</cuberegion>
+</cubelattice>
