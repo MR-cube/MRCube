@@ -45,7 +45,7 @@ public class MRCube {
 	public static void main(String[] args) throws IOException {
         
 		String sqlStatement = "SELECT sample_07.description, sample_07.salary FROM sample_07 WHERE ( sample_07.salary > 100000) ORDER BY sample_07.salary DESC LIMIT 1000";
-		//String sqlStatement = "SELECT description FROM sample_07 limit 10";
+		//String sqlStatement =  "SELECT description FROM sample_07 limit 10";
 
 		System.out.println("\n=============================================");
 		System.out.println("Cloudera Impala JDBC Example");
