@@ -3,7 +3,11 @@ package com.project.MRCube;
  * @author : Amit Patange
  * @Class : NaiveAlgorithm
  * @Package : MRCube
+<<<<<<< HEAD
  * @Purpose : To create data cubes.
+=======
+ * @Purpose : Naive algorithm used for to create datacubes on dimension attributes for further data mining algorithms. 
+>>>>>>> origin/master
  */
 
 import java.io.File;
