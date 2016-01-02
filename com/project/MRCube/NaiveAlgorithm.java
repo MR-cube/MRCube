@@ -3,6 +3,7 @@ package com.project.MRCube;
  * @author : Amit Patange
  * @Class : NaiveAlgorithm
  * @Package : MRCube
+ * @Purpose : To create data cubes.
  */
 
 import java.io.File;
