@@ -1,10 +1,10 @@
 package com.project.MRCube;
-/**
+/***
  * @author : Amit Patange
  * @Class : NaiveAlgorithm
  * @Package : MRCube
  * @Purpose : Naive algorithm used for to create datacubes on dimension attributes for further data mining algorithms. Also compute data cubes and stores it on the database for further uses.
-  */
+ */
 
 import java.io.File;
 import java.io.IOException;
