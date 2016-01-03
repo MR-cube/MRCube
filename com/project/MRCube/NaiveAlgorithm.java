@@ -124,17 +124,6 @@ public class NaiveAlgorithm {
 				System.out.println(sqlStatement);
 				stmt.executeQuery(sqlStatement);
 				
-				
-				/*try {
-					while (rs.next())     
-						System.out.println(rs.getString("bid_id"));
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}*/
-				
-				
-
 				System.out.println("\n== Region Created Newly AP ======================");
 
 			} catch (Exception e) {
